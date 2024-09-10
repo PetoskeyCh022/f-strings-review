@@ -1,7 +1,10 @@
-# Student name
-# Current date
-# f-String Greeting Card 
-
+# Charles
+# 9/10/24
+# f-String Greeting Card
+first_name = input('What is your first name?:')
+occasion = input('What\'s the occasion?:')
+custom_greeting = input('insert your custom message:')
+print(f'Happy {occasion.title()} {first_name.title()}, {custom_greeting}')
 '''
 Directions:
 
